@@ -1,32 +1,45 @@
+* {
+  line-height: 200%;
+}
+
 li {
   display: inline-block;
   list-style: none;
   padding: 4px;
 }
+
 /* header */
 #fixed {
   width: 1050px;
   padding: 20px 0 20px 0;
   margin: 0 auto;
 }
-.jumbotron {
-  position: relative;
-}
 
-.jumbotron .background {
-  position: absolute;
-  background-image: url("../img/hero-bg.jpg");
+.background img {
   width: 100%;
-  height: 300px;
-
 }
-.text {
-  position: absolute;
+
+.text_banner {
+  display: inline-block;
   color: white;
   text-align: center;
-  z-index: 998;
+  z-index: 999;
 }
 
+/* esempi prodotto */
+
+.container .left,
+.container .right{
+  text-align: center;
+  padding: 3vh 2vh 3vh 2vh;
+}
+.go, .bike {
+  background-color: #FAFAFA;
+}
+.left img,
+.right img {
+  width: 50%;
+}
 
 
 @media screen and (max-width: 768px){
