@@ -1,0 +1,15 @@
+li {
+  display: inline-block;
+  list-style: none;
+}
+
+#fixed {
+  position: fixed;
+  width: 1000px;
+}
+@media screen and (max-width: 768px){
+
+}
+@media screen and (max-width: 992px) and (min-width: 768px){
+
+}
