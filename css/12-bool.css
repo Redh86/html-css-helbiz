@@ -42,6 +42,7 @@
 /* colonne */
 [class*="col-"] {
   float: left;
+  height: 100%;
 }
 
 .col-lg-1 {
