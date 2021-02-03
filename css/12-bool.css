@@ -1,15 +1,15 @@
 /* Debug */
-/* .debug .container,
+.debug .container,
 .debug .container-fluid,
 .debug-noheight .container,
 .debug-noheight .container-fluid {
 border: 1px solid red;
 background: pink;
-} */
-/* .debug .container [class*="col-"] {
+}
+.debug .container [class*="col-"] {
   border: 1px solid blue;
   height: 300px;
-} */
+}
 .debug-noheight .container [class*="col-"] {
   border: 1px solid blue;
 }
@@ -41,7 +41,6 @@ background: pink;
 
 /* colonne */
 [class*="col-"] {
-  display: inline-block;
   float: left;
   height: 100%;
 }
